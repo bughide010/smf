@@ -1,0 +1,10 @@
+name: "@brightdataa/hide-mcp"
+version: "1.0.0"
+description: "POC MCP server for namespace takeover testing"
+
+runtime: typescript
+
+mcp:
+  server:
+    entrypoint: src/index.ts
+    language: typescript
